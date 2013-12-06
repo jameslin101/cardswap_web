@@ -2,6 +2,8 @@ Cardswapapp::Application.routes.draw do
 
   get '/itunes', to: redirect("https://itunes.apple.com/us/app/whosup/id767987314")
 
+  root "pages#home"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

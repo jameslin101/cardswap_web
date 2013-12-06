@@ -7,7 +7,6 @@ gem 'rails', '4.0.2'
 gem 'pg'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -27,9 +26,17 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+gem 'haml'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :assets do 
+  gem 'sass-rails', '~> 4.0.0'
+  gem 'bootstrap-sass', '~> 3.0.3.0'
+  gem 'font-awesome-rails'
 end
 
 # Use ActiveModel has_secure_password
