@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Cardswapapp::Application.config.secret_key_base = '94427fd98884b6b104b585d28f7b9271c9474bcaac97718a4727f844c2cd69528d9762432d1a16008debf47ffd23719e6095d4203fe5fca9e161143ac95b977e'
+Cardswapapp::Application.config.secret_key_base = 'ec53fc4723c4e753f7f2b0ad01c43b127a4e67b8f8169052f3b59a706fcd2e6f96a40da17c9c2bac81ca3d71684d9a4fd98aa158d2b4b2ce2813327c4cae5676'
